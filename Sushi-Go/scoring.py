@@ -63,11 +63,11 @@ class Scoring:
                 self.nigiri_score += 2
             if _ == 'nigiri_egg':
                 self.nigiri_score += 1
-            if _ == 'wasabi_nigiri_squid':
+            if _ == 'nigiri_squid_wasabi':
                 self.nigiri_score += 9
-            if _ == 'wasabi_nigiri_salmon':
+            if _ == 'nigiri_salmon_wasabi':
                 self.nigiri_score += 6
-            if _ == 'wasabi_nigiri_egg':
+            if _ == 'nigiri_egg_wasabi':
                 self.nigiri_score += 3
 
         self.pudding_count = 0
